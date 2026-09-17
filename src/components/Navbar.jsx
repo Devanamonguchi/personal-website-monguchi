@@ -1,7 +1,9 @@
 function Navbar() {
   return (
     <nav className="navbar">
-      <p className="brand">Devana Monguchi</p>
+      <a className="brand" href="#">
+        Devana Monguchi
+      </a>
 
       <div className="navLinks">
         <a href="#about">About</a>
